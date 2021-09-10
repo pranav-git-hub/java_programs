@@ -3,17 +3,13 @@
      Author  -   Harsh Ponia
     Date    -   29/08/2021
     Problem/task    -  
-    
+        * - - - - -
+        * * - - - -
+        * * * - - -
+        * * * * - -
+        * * * * * -
         * * * * * *
-         * * * * *
-          * * * *
-           * * *
-            * *
-             *     
-            
-           
-          
-         
+
         
 
 */
@@ -32,9 +28,22 @@ public class pattern3 {
         System.err.println("Enter a number : ");
         int n = scan.nextInt();
         scan.close();
-        for (int i=0;i<=n;i++)
+        for (int i=0;i<n;i++)
         {
-            for (int j =0;j<)
+            for (int j = 0;j<n;j++)
+            {
+                if (j<=i)
+                {
+                    System.out.print("* ");
+                }
+                else if (j>i)
+                {
+                    System.out.print("# ");
+                }
+                
+            }
+            System.out.println();
         }
+        
     }
 }
