@@ -12,7 +12,7 @@ public class Decimal_to_binary {
     System.out.println("Enter a number to change it in binary : ");
     int n = scan.nextInt();
     scan.close();
-    Decimal_to_binary.convert(n);
+    // Decimal_to_binary.convert(n);
 
     }
     
